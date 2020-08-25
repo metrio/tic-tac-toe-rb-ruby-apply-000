@@ -25,6 +25,6 @@ def input_to_index(user_input)
 end
 
 
-def move(board, index)  #player is defaulted to X
-board[index]= "X" || "O"
+def move(board, index)  
+player = "X" || "O"
 end
