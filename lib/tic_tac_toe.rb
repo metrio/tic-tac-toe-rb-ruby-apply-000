@@ -59,13 +59,4 @@ def current_player(board)
   end
 end
 
-def turn_count(board)
-  occupied_pos = 0
-
-board.each do |space|
-  if space == "X" || space == "O" ? occupied_pos +=1 : occupied_pos += 0
-  end  
-end
-
-return occupied_pos 
-end
+\\
