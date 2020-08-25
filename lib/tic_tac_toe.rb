@@ -1,5 +1,5 @@
 WIN_COMBINATIONS = [
-   [0, 1, 2], 
+  [0, 1, 2], 
   [3, 4, 5], 
   [6, 7, 8], 
   [0, 3, 6], 
@@ -24,6 +24,6 @@ def input_to_index(user_input)
   index = user_input.to_i - 1    
 end
 
-def move(board, index, player = "X" || "O")  #player is defaulted to X
+def move(board, index, player = "X" || player = "O") 
 board[index]= player
 end
