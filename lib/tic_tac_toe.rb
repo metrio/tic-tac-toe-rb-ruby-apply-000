@@ -30,30 +30,20 @@ end
 
 
 
+def position_taken?(board, index)
+  !(board[index].nil? || board[index] == " ")
+end
+
 def valid_move?(board, index)
- 
+  index.between?(0,8) && !position_taken?(board, index)
+end
 
-  def position_taken?(board, index)
-
-    if (board[index] == " "|| board[index] == "" || board[index] == nil)
-      false
-    elsif 
-      true
+def turn_count(board)
+  turn = 0
+  board.each do |index|
+    if index == "X" || index == "O"
+      turn += 1
+    end
   end
-end
-
-def on_board?(num)
-  if num.between?(0, 8) == true
-   true
-  elsif
-   false
-  end
-end
-    
-if ((position_taken?(board, index)) == false && (on_board?(index) == true))
-  true
-elsif
-  false
-end
-
+  return turn
 end
