@@ -21,9 +21,9 @@ puts  " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
 def input_to_index(user_input) 
-  index = user_input.to_i - 1    
+  user_input.to_i - 1    
 end
 
-def move(board, index, player = "X" || player = "O") 
+def move(board, index, player) 
 board[index]= player
 end
