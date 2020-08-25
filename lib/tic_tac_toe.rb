@@ -1,3 +1,7 @@
+WIN_COMBINATIONS = [
+  
+  ]
+
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def display_board(board)
