@@ -26,5 +26,5 @@ end
 
 
 def move(board, index)  #player is defaulted to X
-board[index]= player
+board[index]= "X" || "O"
 end
