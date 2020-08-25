@@ -20,5 +20,10 @@ puts  " #{board[6]} | #{board[7]} | #{board[8]} "
 
 end
 
-def input_to_index(board)
+def input_to_index(user_input) 
+  index = user_input.to_i - 1    
+end
+
+def move(board, index, player = "X")  #player is defaulted to X
+board[index]= player
 end
