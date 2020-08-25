@@ -2,37 +2,9 @@
   "RSpec": {
     "coverage": {
       "/home/sincere-page-8483/tic-tac-toe-rb-ruby-apply-000/lib/tic_tac_toe.rb": [
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        1,
-        null,
-        5,
-        5,
-        5,
-        5,
-        5,
-        null,
-        null,
-        null,
-        1,
-        3,
-        null,
-        null,
-        1,
-        4,
-        null
+
       ]
     },
-    "timestamp": 1598385599
+    "timestamp": 1598385961
   }
 }
